@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim-buster AS dqo-libs
+FROM eclipse-temurin:17-jdk-jammy AS dqo-libs
 WORKDIR /workspace/app
 
 COPY --chmod=755 mvnw.sh ./
